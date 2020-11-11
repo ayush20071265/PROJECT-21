@@ -57,7 +57,7 @@ function draw() {
 }
 
 
-function hasCollided(obejct1, object2) {
+function hasCollided(object1, object2) {
   object1RightEdge = object1.x + object1.width;
   object2LeftEdge = object2.x;
 
